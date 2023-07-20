@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body{
+    background-image: url("background-pic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 660px;
+}
+
+header{
+    height: 184px;
+    background-color: rgb(255,255,255,0.8);
+}
+
+.info-board{
+    height: 476px;
+    background-color: rgb(255,255,255,0.8);
+}
+
+footer{
+    height: 68px;
+    background-color: rgb(230,227,220);
+}
